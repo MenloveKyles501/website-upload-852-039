@@ -1,0 +1,47 @@
+{
+  "siteTitle": "高清国产剧-热播剧集大全分类收录-全集高清在线播放",
+  "siteLogo": "高清剧集大全",
+  "movieCount": 2000,
+  "categories": [
+    {
+      "name": "国产热播",
+      "slug": "category-guochan.html",
+      "count": 250
+    },
+    {
+      "name": "都市情感",
+      "slug": "category-dushi.html",
+      "count": 250
+    },
+    {
+      "name": "古装传奇",
+      "slug": "category-guzhuang.html",
+      "count": 250
+    },
+    {
+      "name": "悬疑推理",
+      "slug": "category-xuanyi.html",
+      "count": 250
+    },
+    {
+      "name": "年代剧情",
+      "slug": "category-niandai.html",
+      "count": 250
+    },
+    {
+      "name": "动作冒险",
+      "slug": "category-dongzuo.html",
+      "count": 250
+    },
+    {
+      "name": "奇幻动画",
+      "slug": "category-qihuan.html",
+      "count": 250
+    },
+    {
+      "name": "喜剧综艺",
+      "slug": "category-xiju.html",
+      "count": 250
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>搜索片库-高清国产电视剧-热门剧集片库整理-全集高清在线播放</title>
+    <meta name="description" content="搜索高清国产电视剧、热门剧集、全集播放内容。">
+    <meta name="keywords" content="高清国产电视剧,国产电视剧,热门剧集,高清剧集,全集播放,电视剧片库,国产剧,搜索">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-wrap">
+            <a class="brand" href="./index.html" aria-label="高清国产剧集">
+                <span class="brand-mark">剧</span>
+                <span class="brand-text">高清国产剧集</span>
+            </a>
+            <nav class="nav-links" data-nav-menu>
+                <a class="nav-link" href="./index.html">首页</a>
+                <a class="nav-link" href="./categories.html">分类</a>
+                <a class="nav-link" href="./rank.html">排行榜</a>
+                <a class="nav-link" href="./category-hot-series.html">热播剧集</a>
+                <a class="nav-link" href="./category-latest-series.html">最新剧集</a>
+                <a class="nav-link" href="./category-high-score.html">高分精选</a>
+            </nav>
+            <form class="nav-search" action="./search.html" method="get">
+                <input name="q" type="search" placeholder="搜索剧名、类型、地区" aria-label="搜索">
+                <button type="submit">搜索</button>
+            </form>
+            <button class="nav-toggle" type="button" data-nav-toggle aria-label="展开导航">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+    <main>
+        <section class="sub-hero search-hero">
+            <div class="container">
+                <span class="eyebrow">搜索片库</span>
+                <h1>搜索高清剧集内容</h1>
+                <p>输入剧名、地区、年份、类型或标签，快速定位想看的内容。</p>
+                <form class="hero-search" action="./search.html" method="get">
+                    <input id="searchPageInput" name="q" type="search" placeholder="搜索剧名、类型、地区、标签">
+                    <button type="submit">搜索</button>
+                </form>
+            </div>
+        </section>
+        <section class="container page-stack search-results-wrap">
+            <div class="section-head">
+                <h2><span class="section-icon">搜</span>搜索结果</h2>
+            </div>
+            <div class="card-grid four-cols" id="searchResults"></div>
+            <div class="empty-state" id="searchEmpty">输入关键词后显示匹配内容</div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <a class="brand footer-brand" href="./index.html">
+                    <span class="brand-mark">剧</span>
+                    <span class="brand-text">高清国产剧集</span>
+                </a>
+                <p>高清国产电视剧页面汇集国产剧内容，按热播、经典、最新和高分维度整理。</p>
+            </div>
+            <div>
+                <h3>分类浏览</h3>
+                <div class="footer-links">
+                    <a href="./category-hot-series.html">热播剧集</a>
+                    <a href="./category-latest-series.html">最新剧集</a>
+                    <a href="./category-classic-library.html">经典片库</a>
+                    <a href="./category-high-score.html">高分精选</a>
+                    <a href="./category-suspense-crime.html">悬疑犯罪</a>
+                    <a href="./category-romance-drama.html">爱情剧情</a>
+                </div>
+            </div>
+            <div>
+                <h3>快速入口</h3>
+                <div class="footer-links">
+                    <a href="./categories.html">片库分类</a>
+                    <a href="./rank.html">热播排行</a>
+                    <a href="./search.html">搜索片库</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./assets/js/app.js"></script>
+    <script src="./assets/js/search-data.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

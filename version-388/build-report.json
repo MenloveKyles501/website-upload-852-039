@@ -1,0 +1,11 @@
+{
+  "html_files": 2013,
+  "detail_files": 2000,
+  "expected_movies": 2000,
+  "card_count_in_core_pages": 6000,
+  "missing_analytics": [],
+  "single_line_suspects": [],
+  "detail_count_ok": true,
+  "analytics_ok": true,
+  "format_ok": true
+}
